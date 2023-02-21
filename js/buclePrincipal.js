@@ -25,6 +25,7 @@ var buclePrincipal = {
     detener: function() {
     },
     actualizar: function(registroTemporal) {
+        teclado.reiniciar();
         buclePrincipal.aps++;
     },
     dibujar: function(registroTemporal){
