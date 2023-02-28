@@ -3,10 +3,13 @@
 $fecha = new DateTime();
 
 $fuentesJavascript =  array(
+    "js/listadoEstados.js",
     "js/Rectangulo.js",
     "js/Punto.js",
     "js/Sprite.js",
+    "js/PaletaSprites.js",
     "js/Tile.js",
+    "js/CapaMapaTiles.js",
     "js/ajax.js",
     "js/teclado.js",    
     "js/buclePrincipal.js",
